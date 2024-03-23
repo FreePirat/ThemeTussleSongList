@@ -4,7 +4,14 @@
     String currentHost1 = urlParts[2];
     String currentHost2 = urlParts[3];
 %>
-<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+<style>
+    a{
+        font-size: larger;
+        font-style: oblique;
+        color: white;
+    }
+</style>
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-danger border-bottom box-shadow mb-3">
     <div class="container-fluid">
         <a href="http://<%=currentHost1%>/<%=currentHost2%>/home" class="navbar-brand" >Home</a>
         <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">

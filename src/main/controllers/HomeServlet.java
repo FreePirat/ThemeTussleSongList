@@ -14,7 +14,7 @@ import java.io.IOException;
 @WebServlet(name = "HomeServlet", value = {"/home", "/"})
 public class HomeServlet extends HttpServlet {
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException, ServletException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         Playlist playlist = new Playlist();
         PlaylistDAO pDAO = new PlaylistDAO();

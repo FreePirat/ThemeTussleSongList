@@ -8,7 +8,6 @@
 <%
       String sessionToken = (String)request.getSession().getAttribute("token");
       System.out.println("HOME JSP token: " + sessionToken);
-      String message = "";
       User sessionUser = null;
       List<UserLogin> ulList = null;
 
@@ -34,22 +33,18 @@
 %>
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Login</title>
-</head>
-<body>
-HOME JSP
-<br>
-<% if(message == null) {%>
-<h1>Welcome User!</h1>
-<% } else { %>
-<h1><%= message %></h1>
-<% } %>
-
 <br/>
 <% if(sessionUser == null) {%>
-<a href="login">Log In</a>
+<% response.sendRedirect("login"); %>
 <% } else { %> <!-- IF LOGGED IN -->
+<head>
+    <style>
+        <%@include file="/WEB-INF/css/bootstrap.min.css" %>
+
+    </style>
+    <title>Home</title>
+</head>
+<body>
 <header>
     <%@ include file="nav.jsp" %>
 </header>
