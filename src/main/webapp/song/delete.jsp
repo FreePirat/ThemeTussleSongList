@@ -9,6 +9,7 @@
     <title>Delete Song</title>
     <style>
         <%@include file="/WEB-INF/css/bootstrap.min.css" %>
+        <%@include file="/WEB-INF/css/styles.css" %>
     </style>
 </head>
 <body>

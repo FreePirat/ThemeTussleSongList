@@ -2,7 +2,10 @@
 <html>
 <head>
     <title>CREATE SONG</title>
-    <style><%@include file="/WEB-INF/css/bootstrap.min.css"%></style>
+    <style><%@include file="/WEB-INF/css/bootstrap.min.css"%>
+    <%@include file="/WEB-INF/css/styles.css" %>
+    </style>
+
 </head>
 <body>
 <header>
@@ -28,7 +31,7 @@
             </div>
         </div>
         <div>
-            CREATE SONG!
+            <p>CREATE SONG!</p>
             <br>
             <a href="songs" method="get">Go Back</a>
         </div>

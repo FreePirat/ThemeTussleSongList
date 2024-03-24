@@ -9,6 +9,7 @@
 <head>
     <style>
         <%@include file="/WEB-INF/css/bootstrap.min.css" %>
+        <%@include file="/WEB-INF/css/styles.css" %>
     </style>
     <title>MY PLAYLIST</title>
 </head>

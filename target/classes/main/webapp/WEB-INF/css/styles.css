@@ -1,0 +1,7 @@
+body{
+    background-color: #4d0404;
+}
+
+th, td, label, p, dt, dd{
+    color: white;
+}

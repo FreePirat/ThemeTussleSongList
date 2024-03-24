@@ -6,7 +6,10 @@
 %>
 <html>
 <head>
-    <style><%@include file="/WEB-INF/css/bootstrap.min.css"%></style>
+    <style><%@include file="/WEB-INF/css/bootstrap.min.css"%>
+        <%@include file="/WEB-INF/css/styles.css" %>
+    </style>
+
     <title>Song Details</title>
 </head>
 <body>
