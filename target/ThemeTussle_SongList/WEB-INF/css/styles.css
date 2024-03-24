@@ -2,6 +2,6 @@ body{
     background-color: #4d0404;
 }
 
-th, td, label, p, dt, dd{
+th, td, label, p, dt, dd, h1, h3{
     color: white;
 }

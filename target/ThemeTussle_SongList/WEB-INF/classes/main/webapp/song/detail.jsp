@@ -20,7 +20,7 @@
     <main role="main" class="pb-3">
         <h1>Details</h1>
         <div>
-            <h4>Song</h4>
+            <h3>Song</h3>
             <hr/>
             <dl class="row">
                 <dt class="col-sm-2">

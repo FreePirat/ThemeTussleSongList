@@ -21,8 +21,6 @@
         <h1>Delete</h1>
         <h3>Are you sure you want to delete this?</h3>
         <div>
-            <h4>Product</h4>
-            <hr/>
             <dl class="row">
                 <dt class="col-sm-2">
                     Name

@@ -20,7 +20,6 @@
     <%@ include file="../nav.jsp" %>
 </header>
 
-<a href="create-song">Add Song</a>
 <% if (songs != null && !songs.isEmpty()) { %>
 <table class="table">
     <thead>
@@ -49,6 +48,7 @@
     <% } %>
     </tbody>
 </table>
+<h3><a href="create-song">Add Song</a></h3>
 <% } else { %>
 <p>No Songs Found</p>
 <% } %>
